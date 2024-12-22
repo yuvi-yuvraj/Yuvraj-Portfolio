@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import yuvi from "./yuvi.svg";
 import uv from "./uv.png";
+import ylogo from "./ylogo.svg"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -62,5 +63,6 @@ export {
   jobit,
   tripguide,
   yuvi,
-  uv
+  uv,
+  ylogo
 };
