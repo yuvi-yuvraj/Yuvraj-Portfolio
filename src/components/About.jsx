@@ -2,6 +2,7 @@ import Globe from 'react-globe.gl'
 import { grid1 , grid3, mern, grid4, tick, copy } from '../assets'
 import Button from './Button'
 import { useState } from 'react'
+import { SectionWrapper } from "../hoc";
 
 const About = () => {
 
@@ -30,8 +31,8 @@ const About = () => {
       </div>
 
       <div className='col-span-1 xl:row-span-3'>
-        <div className='grid-container'>
-          <img src={mern} alt='grid2' className='w-full sm:w-[276px] h-fit object-contain'/>
+        <div className='grid-container flex justify-center items-center'>
+          <img src={mern} alt='grid2' className='w-full sm:w-[600px] h-fit object-contain gap-2 pb-14'/>
           <div>
             <p className='grid-headtext'>Tech Stack</p>
             <p className='grid-subtext'>I specialize in Tailwindcss, JavaScript with a focus on React and Next.js ecosystems.</p>
@@ -39,12 +40,12 @@ const About = () => {
         </div>
       </div>
 
-      <div className='col-span-1 xl:row-span-3'>
+      <div className='col-span-1 xl:row-span-4'>
         <div className='grid-container'>
-          <div className='rounded-3xl w-full sm:h-[326px] h-fit justify-center items-center'>
+          <div className='rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center'>
             <Globe 
-            height={326}
-            width={326}
+            height={380}
+            width={380}
             backgroundColor='rgba(0, 0, 0, 0)'
             backgroundImageOpacity={0.5}
             showAtmosphere
@@ -78,7 +79,7 @@ const About = () => {
             <img
               src={grid4}
               alt="grid-4"
-              className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
+              className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top xl:h-[200px] "
             />
 
             <div className="space-y-2">
@@ -95,4 +96,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, "about");

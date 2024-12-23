@@ -24,6 +24,7 @@
     "react-dom": "^18.3.1",
     "react-globe.gl": "^2.28.3",
     "react-router-dom": "^7.1.0",
+    "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.5.3"
   },
   "devDependencies": {

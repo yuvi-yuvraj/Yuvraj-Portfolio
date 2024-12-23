@@ -16,6 +16,7 @@ import grid3 from "./grid3.png";
 import grid4 from "./grid4.png";
 import tick from "./tick.svg";
 import copy from "./copy.svg";
+import bguv from "./bguv.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -71,12 +72,13 @@ export {
   tripguide,
   yuvi,
   uv,
-  ylogo,
   grid1,
   grid2,
   mern,
   grid3,
   grid4,
   tick,
-  copy
+  copy,
+  ylogo,
+  bguv
 };
