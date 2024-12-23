@@ -8,7 +8,14 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import yuvi from "./yuvi.svg";
 import uv from "./uv.png";
-import ylogo from "./ylogo.svg"
+import ylogo from "./ylogo.svg";
+import grid1 from "./grid1.png";
+import grid2 from "./grid2.png";
+import mern from "./mern.png";
+import grid3 from "./grid3.png";
+import grid4 from "./grid4.png";
+import tick from "./tick.svg";
+import copy from "./copy.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -64,5 +71,12 @@ export {
   tripguide,
   yuvi,
   uv,
-  ylogo
+  ylogo,
+  grid1,
+  grid2,
+  mern,
+  grid3,
+  grid4,
+  tick,
+  copy
 };
