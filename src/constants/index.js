@@ -23,6 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    dsa,
+    react,
+    express,
+    mern,
+    apple,
+    brainwave,
+    pasteapp,
   } from "../assets";
   
   export const navLinks = [
@@ -116,55 +123,55 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Data Structures and Algorithms",
+      company_name: "",
+      icon: dsa,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Sep 2023 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Started learning DSA through foundational concepts like arrays, linked lists, and recursion.",
+        "Used platforms like GeeksforGeeks, LeetCode, Codeforces, and YouTube tutorials for understanding concepts and problem-solving.",
+        "Focused on solving problems daily to build a strong grasp of concepts.",
+        " Enhanced logical thinking and debugging skills by analyzing edge cases and learning from mistakes.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Frontend Developer",
+      company_name: "",
+      icon: react,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2024 - July 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " Began by learning HTML, CSS, and JavaScript as foundational frontend technologies.",
+        " Utilized platforms like FreeCodeCamp, MDN Web Docs, and YouTube tutorials for learning.",
+        "Created small websites to practice skills, including portfolios and blogs.",
+        "Built clones of popular platforms like YouTube and a banking application to understand real-world UI/UX.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Backend Developer",
+      company_name: "",
+      icon: express,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Aug 2024 - Oct 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " Learned the basics of RESTful APIs, HTTP methods, and CRUD operations.",
+        "Began with backend-friendly languages like JavaScript (Node.js) and explored frameworks such as Express.js.",
+        " Gained experience in designing RESTful APIs and handling request-response cycles efficiently.",
+        "Working on projects like the Apple website clone, implementing backend logic for dynamic data and API integrations.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Mern stack Developer",
+      company_name: "",
+      icon: mern,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Nov 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a strong foundation in React.js, including hooks, state management, and component architecture.",
+        "Built dynamic, responsive user interfaces using React Router and styled-components or CSS frameworks like Tailwind CSS.",
+        "Mastered Node.js and Express.js to create scalable server-side applications.",
+        "Designed efficient schemas and implemented Mongoose for seamless integration with the backend.",
       ],
     },
   ];
@@ -198,12 +205,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Apple-Iphone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This project focuses on replicating Apple’s sleek design, dynamic features like smooth scrolling and carousels, and ensuring a seamless user experience across devices.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
@@ -215,50 +222,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: apple,
+      source_code_link: "https://github.com/yuvi-yuvraj/Apple-Iphone",
     },
     {
-      name: "Job IT",
+      name: "Brainwave",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A modern website utilizing Three.js to create stunning, interactive 3D graphics and animations, offering an immersive user experience with seamless performance.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Gsap",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: brainwave,
+      source_code_link: "https://github.com/yuvi-yuvraj/Brainwave",
     },
     {
-      name: "Trip Guide",
+      name: "Paste App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Paste App is a smart productivity tool designed to help users store, organize, and manage important details and personal notes effortlessly.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Vercel",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: pasteapp,
+      source_code_link: "https://github.com/yuvi-yuvraj/PasteApp",
     },
   ];
   

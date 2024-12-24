@@ -17,6 +17,12 @@ import grid4 from "./grid4.png";
 import tick from "./tick.svg";
 import copy from "./copy.svg";
 import bguv from "./bguv.png";
+import dsa from "./dsa.png";
+import react from "./react.png";
+import express from "./express.png";
+import apple from "./apple.png";
+import brainwave from "./brainwave.png";
+import pasteapp from "./pasteapp.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -80,5 +86,11 @@ export {
   tick,
   copy,
   ylogo,
-  bguv
+  bguv,
+  dsa,
+  react,
+  express,  
+  apple,
+  brainwave,
+  pasteapp,
 };
