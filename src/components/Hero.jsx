@@ -15,8 +15,8 @@ const Hero = () => {
             I develop user <br className="sm:block hidden"/> interface and web application
           </p>
         </div>
-        <div>
-         <img src={uv} alt="uv" className="w-400 h-800 lg:block md: hidden mx-auto pt-40 ml-28"/>
+        <div className="absolute bottom-0 right-0">
+         <img src={uv} alt="uv" className="w-[650px] h-[900px] lg:block md: hidden mx-auto pt-40 ml-28"/>
         </div>
         
       </div>
