@@ -22,7 +22,7 @@ import {
     mern,
     apple,
     brainwave,
-    pasteapp,
+    Real,
   } from "../assets";
   
   export const navLinks = [
@@ -240,25 +240,25 @@ import {
       source_code_link: "https://github.com/yuvi-yuvraj/Brainwave",
     },
     {
-      name: "Paste App",
+      name: "Real-time Chat App",
       description:
-        "The Paste App is a smart productivity tool designed to help users store, organize, and manage important details and personal notes effortlessly.",
+        "Our real-time chat app enables instant messaging and seamless photo sharing. With typing indicators and push notifications, users stay connected effortlessly.",
       tags: [
         {
           name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Vercel",
+          name: "Express",
           color: "green-text-gradient",
         },
         {
-          name: "Css",
+          name: "Socket.io",
           color: "pink-text-gradient",
         },
       ],
-      image: pasteapp,
-      source_code_link: "https://github.com/yuvi-yuvraj/PasteApp",
+      image: Real,
+      source_code_link: "https://github.com/yuvi-yuvraj/RealTime_ChatApp",
     },
   ];
   

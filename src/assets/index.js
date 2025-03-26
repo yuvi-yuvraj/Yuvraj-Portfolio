@@ -23,6 +23,7 @@ import express from "./express.png";
 import apple from "./apple.png";
 import brainwave from "./brainwave.png";
 import pasteapp from "./pasteapp.png";
+import Real from "./Real.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -93,4 +94,5 @@ export {
   apple,
   brainwave,
   pasteapp,
+  Real,
 };

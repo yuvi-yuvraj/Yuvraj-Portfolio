@@ -24,7 +24,7 @@ const About = () => {
         <div className="grid-container">
           <img src={grid1} alt="gird-1" className="w-full sm:h-[276px] h-fit object-contain mb-20" />
           <div>
-            <p className='grid-headtext'>Hi, I'm Yuvraj</p>
+            <p className='grid-headtext'>Hi, I&aposm Yuvraj</p>
             <p className='grid-subtext'>I have honed my skills in frontend and backend development, with a focus on Modern inferface websites.</p>
           </div>
         </div>
