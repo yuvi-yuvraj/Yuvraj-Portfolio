@@ -47,6 +47,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Robot from "./Robot.png";
+import Host from "./Host.png";
+import CP from "./CP.png";
 
 export {
   logo,
@@ -95,4 +98,7 @@ export {
   brainwave,
   pasteapp,
   Real,
+  Robot,
+  Host,
+  CP
 };
