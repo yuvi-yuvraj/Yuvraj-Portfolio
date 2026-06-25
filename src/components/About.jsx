@@ -24,7 +24,7 @@ const About = () => {
         <div className="grid-container">
           <img src={grid1} alt="gird-1" className="w-full sm:h-[276px] h-fit object-contain mb-20" />
           <div>
-            <p className='grid-headtext'>Hi, I&aposm Yuvraj</p>
+            <p className='grid-headtext'>Hi, I'am Yuvraj</p>
             <p className='grid-subtext'>I have honed my skills in frontend and backend development, with a focus on Modern inferface websites.</p>
           </div>
         </div>
@@ -89,7 +89,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? tick : copy} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">singhyuvraj0717</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">Gmail</p>
               </div>
             </div>
           </div>

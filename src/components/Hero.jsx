@@ -14,6 +14,18 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop user <br className="sm:block hidden"/> interface and web application
           </p>
+           <a
+            href="https://peach-bernetta-22.tiiny.site"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-white py-3 px-8 rounded-full mt-12 text-lg font-bold transition duration-300 transform hover:scale-105"
+            style={{
+              background: 'linear-gradient(90deg, #915eff, #915eff)',
+              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #915eff',
+            }}
+          >
+            DOWNLOAD CV
+          </a>
         </div>
         <div className="absolute bottom-0 right-0">
          <img src={uv} alt="uv" className="w-[500px] h-[700px] lg:block md: hidden mx-auto pt-40 ml-28"/>

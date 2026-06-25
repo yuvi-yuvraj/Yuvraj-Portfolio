@@ -172,7 +172,7 @@ import {
       title: "Competitive Programming",
       company_name: "",
       icon: CP,
-      iconBg: "#E6DEDD",
+      iconBg: "#383E56",
       date: "Sep 2025 - Present",
       points: [
         " Solved 300+ competitive programming problems on platforms like LeetCode, Codeforces, and CodeChef.",

@@ -8,6 +8,7 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Github from './Github';
+import EducationSection from './Education';
 
 export {
   Hero,
@@ -23,4 +24,5 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   Github,
+  EducationSection,
 }
